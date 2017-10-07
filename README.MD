@@ -4,7 +4,7 @@ CONTEST TEST
 No ViewPager in Main
 Use RecyclerView
 
-=================
+
 Referance
 
 1.CardSlider
