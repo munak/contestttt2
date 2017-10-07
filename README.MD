@@ -2,6 +2,7 @@ CONTEST TEST
 =================
 
 No ViewPager in Main
+
 Use RecyclerView
 
 
