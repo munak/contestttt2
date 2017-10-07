@@ -5,7 +5,8 @@ No ViewPager in Main
 Use RecyclerView
 
 =================
-Referance 
+Referance
+
 1.CardSlider
 - https://github.com/Ramotion/cardslider-android
 
