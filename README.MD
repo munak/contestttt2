@@ -15,3 +15,6 @@ Referance
 - https://dribbble.com/shots/2337667-Inside-view-of-card-bcard-app
 - https://dribbble.com/shots/3800314-Select-Account-Card-View
 - https://github.com/YiChaoLove/CoverFlow
+
+3. Card Open
+- https://github.com/Ramotion/folding-cell-android
