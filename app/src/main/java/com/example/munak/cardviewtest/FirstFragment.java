@@ -87,7 +87,7 @@ public class FirstFragment extends Fragment implements CardClickListener{
         getActivity().getSupportFragmentManager()
                 .beginTransaction()
                 .addSharedElement(holder.image, "kittenImage")
-                .replace(R.id.container, cardDetails)
+                .replace(R.id.container2, cardDetails)
                 .addToBackStack(null)
                 .commit();
     }

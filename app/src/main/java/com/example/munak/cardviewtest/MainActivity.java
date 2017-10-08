@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.container2, new FirstFragment())
                     .commit();
 
-            tab_first.setSelected(true);
+            //tab_first.setSelected(true);
         }
 
         tab_first = (TextView) findViewById(R.id.tab_first);

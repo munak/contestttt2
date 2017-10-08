@@ -12,16 +12,12 @@ import android.widget.TextView;
 
 public class CardViewHolder extends RecyclerView.ViewHolder {
 
-    View mView;
     ImageView image;
     TextView title;
     CardView cardview;
 
-
     public CardViewHolder(View itemView) {
         super(itemView);
-
-        mView = itemView;
 
         image = (ImageView)itemView.findViewById(R.id.image);
         title = (TextView)itemView.findViewById(R.id.title);

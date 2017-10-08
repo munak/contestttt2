@@ -16,6 +16,7 @@ import android.widget.TextView;
  * Created by Munak on 2017. 10. 4..
  */
 
+@Deprecated
 public class StartFragment extends Fragment {
 
     ViewPager vp;
@@ -44,7 +45,7 @@ public class StartFragment extends Fragment {
         if (savedInstanceState == null) {
             getActivity().getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.container, new FirstFragment())
+                    .replace(R.id.container, new FirstFragment())
                     .commit();
         }
 
