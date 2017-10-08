@@ -1,4 +1,4 @@
-package com.example.munak.cardviewtest;
+package com.example.munak.cardviewtest.Fragment;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -11,7 +11,8 @@ import android.transition.Fade;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
+
+import com.example.munak.cardviewtest.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.munak.cardviewtest;
+package com.example.munak.cardviewtest.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.example.munak.cardviewtest.R;
 
 /**
  * Created by Munak on 2017. 10. 4..

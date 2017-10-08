@@ -1,4 +1,4 @@
-package com.example.munak.cardviewtest;
+package com.example.munak.cardviewtest.Fragment;
 
 /**
  * Created by Munak on 2017. 10. 4..

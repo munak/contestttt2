@@ -1,14 +1,15 @@
-package com.example.munak.cardviewtest;
+package com.example.munak.cardviewtest.Activity;
 
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.munak.cardviewtest.Fragment.FirstFragment;
+import com.example.munak.cardviewtest.R;
+import com.example.munak.cardviewtest.Fragment.SecondFragment;
+import com.example.munak.cardviewtest.Fragment.ThirdFragment;
 
 public class MainActivity extends AppCompatActivity {
 

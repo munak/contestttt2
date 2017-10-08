@@ -1,4 +1,4 @@
-package com.example.munak.cardviewtest;
+package com.example.munak.cardviewtest.Fragment;
 
 import android.annotation.TargetApi;
 import android.content.Context;

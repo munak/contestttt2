@@ -1,4 +1,4 @@
-package com.example.munak.cardviewtest;
+package com.example.munak.cardviewtest.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,13 +7,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
+import com.example.munak.cardviewtest.R;
+
 /**
  * Created by Munak on 2017. 9. 23..
  */
 
-public class ThirdFragment extends Fragment {
+public class SecondFragment extends Fragment {
 
-    public ThirdFragment()
+    public SecondFragment()
     {
     }
     @Override
@@ -25,7 +27,8 @@ public class ThirdFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        RelativeLayout layout = (RelativeLayout) inflater.inflate(R.layout.fragment_third, container, false);
+        RelativeLayout layout = (RelativeLayout) inflater.inflate(R.layout.fragment_second, container, false);
         return layout;
     }
+
 }
