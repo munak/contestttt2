@@ -7,6 +7,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.example.munak.cardviewtest.Fragment.FirstFragment;
+import com.example.munak.cardviewtest.Fragment.FourthFragment;
 import com.example.munak.cardviewtest.R;
 import com.example.munak.cardviewtest.Fragment.SecondFragment;
 import com.example.munak.cardviewtest.Fragment.ThirdFragment;
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     //ViewPager vp;
     FrameLayout container2;
-    TextView tab_first, tab_second, tab_third;
+    TextView tab_first, tab_second, tab_third, tab_fourth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -31,13 +32,14 @@ public class MainActivity extends AppCompatActivity {
                     .beginTransaction()
                     .replace(R.id.container2, new FirstFragment())
                     .commit();
-
-            //tab_first.setSelected(true);
         }
 
         tab_first = (TextView) findViewById(R.id.tab_first);
         tab_second = (TextView) findViewById(R.id.tab_second);
         tab_third = (TextView) findViewById(R.id.tab_third);
+        tab_fourth = (TextView) findViewById(R.id.tab_fourth);
+
+        tab_first.setSelected(true);
 
         tab_first.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 tab_first.setSelected(true);
                 tab_second.setSelected(false);
                 tab_third.setSelected(false);
+                tab_fourth.setSelected(false);
             }
         });
 
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 tab_first.setSelected(false);
                 tab_second.setSelected(true);
                 tab_third.setSelected(false);
+                tab_fourth.setSelected(false);
             }
         });
 
@@ -76,6 +80,21 @@ public class MainActivity extends AppCompatActivity {
                 tab_first.setSelected(false);
                 tab_second.setSelected(false);
                 tab_third.setSelected(true);
+                tab_fourth.setSelected(false);
+            }
+        });
+
+        tab_fourth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.container2, new FourthFragment())
+                        .commit();
+                tab_first.setSelected(false);
+                tab_second.setSelected(false);
+                tab_third.setSelected(false);
+                tab_fourth.setSelected(true);
             }
         });
 
